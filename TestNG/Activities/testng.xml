@@ -8,9 +8,11 @@
             <exclude name="HeaderTests"/>
         </run>
     </groups>
+    <parameter name="username" value="admin"/>
+    <parameter name="password" value="password"/>
     <test name="FSTTests">
         <classes>
-            <class name="Activity5" />
+            <class name="Activity6" />
         </classes>
     </test>
 </suite>
