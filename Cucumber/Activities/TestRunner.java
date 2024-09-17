@@ -4,10 +4,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "Features",
-        glue = {"stepDefinitions"},
-        tags = "@activity1",
-        plugin = {"json:test-reports/json-report.json"},
+        features = "features",
+        glue = {"stepdefinitions"},
+        tags = "@SmokeTest",
+        plugin = {"pretty"},
         monochrome = true
 )
 
